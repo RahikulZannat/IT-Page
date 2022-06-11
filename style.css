@@ -8,16 +8,68 @@ body{
     position: fixed;
     top: 0px;
     display: flex;
+    justify-content: space-around;
 }
 .menu{
     padding-top: 1%;
     padding-bottom: 1%;
-    justify-content: space-around;
-    padding-right: 40px;
     
-   
+
 }
 .menu-text{
     text-decoration: none;
+    color: #D5D5D5;
+    padding-left: 30px;   
+}
+ .logo img{
+     padding-right: 20px;
+ }
+ header{
+     display: flex;
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding-top: 10%;
+     padding-bottom: 10%;
+
+     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('shapes/bg1.png');
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+ .header-info{
+
+        width: 50%;
+        margin-left: 13.5%;
+ }
+
+ .form{
+    width: 50%;
+    margin-left: 11%;
+
+ }
+.login-box{
+    width: 60%;
+}
+.big-logo{
+    width: 30%;
+}
+.header-h1{
     color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+#paragraph{
+    color: #D5D5D5;
+    text-align: justify;
+}
+button{
+    text-decoration: none;
+    border: solid;
+    padding: 10px 25px;
+    color: white;
+    background-color: transparent;
+    margin-top: 16px;
+
 }
