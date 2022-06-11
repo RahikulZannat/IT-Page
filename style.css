@@ -64,6 +64,17 @@ body{
     color: #D5D5D5;
     text-align: justify;
 }
+.paragraph-1{
+    color: #acabab;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.paragraph-2{
+    color: #acabab;
+    text-align: justify;
+    
+}
 button{
     text-decoration: none;
     border: solid;
@@ -75,11 +86,13 @@ button{
 }
 .social-media{
     display: flex;
-    box-shadow: ;
+    border: 0px solid;
+    padding: 8px;
+    box-shadow: 0px 3px #CCCCCC;
 
 }
 .social-text{
-    width: 50%;
+    width: 30%;
     margin-left: 13.5%;
 }
 .social-img{
@@ -88,4 +101,46 @@ button{
 .social-img img{
     width: 70%;
     margin-top: 4%;
+    padding-left: 13%;
+}
+
+.feacture-1{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 13%;
+    background-color: #F5F5F5;
+}
+.sec-1{
+    width: 10%;
+}
+.sec-2{
+    width: 45%;
+    padding-left: 5%;
+}
+.sec-3{
+    width: 40%;
+}
+.sec-3 img{
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 15%;
+    
+}
+.tab-1{
+    background-color: #FF8B38;
+    color: white;
+    padding: 40px;
+    
+}
+.tab{
+    background-color: #333333;
+    color: white;
+    margin: 0px;
+    padding: 40px;
+}
+.f-button{
+    background-color: #FF8B38;
+    color: white;
+    border-radius: 5px;
 }
