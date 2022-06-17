@@ -86,14 +86,18 @@ button{
 }
 .social-media{
     display: flex;
-    border: 0px solid;
-    padding: 8px;
-    box-shadow: 0px 3px #CCCCCC;
-
+    padding: 5px;   
 }
+#media{
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    color: #c2c2c2;
+}
+
 .social-text{
     width: 30%;
     margin-left: 13.5%;
+    color: #333333;
 }
 .social-img{
     width: 50%;
@@ -143,4 +147,23 @@ button{
     background-color: #FF8B38;
     color: white;
     border-radius: 5px;
+}
+
+.feacture-2{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 13%;
+}
+.f2{
+    width: 50%;
+}
+.f2 img{
+    width: 80%;
+}
+.feacture-logo{
+    display: flex;
+}
+.f2-half{
+    width: 50%;
 }
